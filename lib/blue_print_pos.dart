@@ -122,6 +122,8 @@ class BluePrintPos {
     double duration = 0,
     PaperSize paperSize = PaperSize.mm58,
   }) async {
+    // Add below line if print not in full width <-- width -->
+    paperSize = Platform.isAndroid ? PaperSize.mm72 : PaperSize.mm58;
     final Uint8List bytes = await contentToImage(
       content: receiptSectionText.content,
       duration: duration,
