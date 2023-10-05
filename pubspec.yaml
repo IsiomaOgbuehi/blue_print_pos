@@ -20,7 +20,7 @@ dependencies:
   # Image utilities
   image: ^3.3.0
   # Generate qr image painter
-  qr_flutter: ^4.1.0
+  qr_flutter: ^4.0.0
 
 dev_dependencies:
   flutter_test:
