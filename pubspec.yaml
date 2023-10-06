@@ -9,7 +9,7 @@ environment:
 
 dependencies:
   # Handler bluetooth for Android
-  blue_thermal_printer: ^1.2.0
+  blue_thermal_printer: ^1.2.3
   # Utilities for generate ByteBuffer
   esc_pos_utils_plus: ^2.0.1+6
   # Framework
@@ -18,7 +18,7 @@ dependencies:
   # Handler bluetooth for iOS
   flutter_blue_plus: ^1.1.2
   # Image utilities
-  image: ^3.1.3
+  image: ^4.0.02
   # Generate qr image painter
   qr_flutter: ^4.0.0
 
